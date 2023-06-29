@@ -14,7 +14,7 @@ permissions:
 
 defaults:
   run:
-    working-directory: 'test'
+    working-directory: 'MLOPS3'
 
 jobs:
   build:
