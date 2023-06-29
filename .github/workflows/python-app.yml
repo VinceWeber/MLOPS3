@@ -30,6 +30,9 @@ jobs:
     - name: Install PYtest
       run : 
         pip install pytest
+    - name: List directories
+      run : 
+        ls *
     - name: Test with pytest
       run: |
         pytest
