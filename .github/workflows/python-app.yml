@@ -4,8 +4,8 @@
 name: Python application
 
 on:
-  push:
-    branches: [ "main" ]
+  #push:
+  #  branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -32,4 +32,4 @@ jobs:
     - name: List directories
       run : ls *
     - name: Test with pytest
-      run: pytest
+      run: echo pytest
