@@ -1,9 +1,9 @@
 # Do the same for the following functions
 # Functions in src/user_functions.py and tests in tests/test_user_functions.py
-import sys
-sys.path+=['../src']
+#import sys
+#sys.path+=['../src']
 
-from Exerciceuser_functions import *
+from src.Exerciceuser_functions import *
 
     # Tests (copy to tests/test_user_functions.py)
 import pytest
