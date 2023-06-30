@@ -1,5 +1,5 @@
 import sys
-sys.path+=['../src']
+sys.path+=['src']
 
 # content of test_sample.py
 
